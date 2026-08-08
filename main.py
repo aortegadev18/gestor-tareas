@@ -14,3 +14,10 @@ def agregar_tarea():
         "completada": False
     }
     tareas.append(tarea)
+
+def listar_tareas():
+    for tarea in tareas:
+        print(
+            tarea["nombre"],
+            tarea["completada"]
+        )
