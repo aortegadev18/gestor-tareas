@@ -5,7 +5,7 @@ def mostrar_menu():
     print("1. Agregar tarea")
     print("2. Listar tareas")
     print("3. Mostrar progreso")
-    print("4. Salir")
+    print("4. Entrar de nuevo al programa")
 
 def agregar_tarea():
     nombre = input("Tarea: ")
